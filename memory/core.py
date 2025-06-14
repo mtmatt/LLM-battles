@@ -73,7 +73,7 @@ class MemoryManager:
         ret = ""
         memory_size = len(self._memory_store)
         for idx, s in enumerate(self._memory_store):
-            ret += f'<{memory_size - idx} round before>\n' + s + f'</{memory_size - idx} round before>\n\n'
+            ret += f'<{memory_size - idx} round before>\n' + s + f'\n</{memory_size - idx} round before>\n\n'
         return ret
 
     def clear(self) -> None:
