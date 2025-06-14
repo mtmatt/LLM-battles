@@ -10,19 +10,12 @@ __author__ = "LLM Battles Project"
 # Import main classes/functions
 from .core import MemoryManager
 from .config import MemoryConfig, DEFAULT_CONFIG
-from .utils import (
-    serialize_value,
-    deserialize_value,
-    format_memory_stats,
-)
+from .utils import create_memory_from_config
+
 
 __all__ = [
     "MemoryManager",
     "MemoryConfig", 
     "DEFAULT_CONFIG",
-    "generate_memory_key",
-    "serialize_value",
-    "deserialize_value",
-    "format_memory_stats",
-    "cleanup_old_entries"
+    "create_memory_from_config"
 ]
