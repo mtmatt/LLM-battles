@@ -8,7 +8,7 @@ import shutil
 import os
 from unittest.mock import patch, MagicMock
 
-from memory.core import MemoryManager
+from memory.core import SimpleMemoryManager
 from memory.config import MemoryConfig
 from memory.utils import create_memory_from_config
 

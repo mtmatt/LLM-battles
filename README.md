@@ -14,6 +14,9 @@ This project involves three stages.
 We will give our LLMs several different memory model, allowing us to modify their ability.
 
 
+## Api Key
+To run the game, you need to set your NVIDIA API key in the environment variable `NVIDIA_API_KEY` and GOOGLE API key in the environment variable `GOOGLE_API_KEY`. 
+
 ## Memory Models
 
 The memory model is the key of the game. It allows players to remember past actions and opinions of other players. We first implemented a simple memory model that stores the last 8 rounds. The memory will decay over time, so the most recent actions will have more weight.
@@ -53,7 +56,7 @@ This part is the memory 1 round before the current round.
 - llama3-nemo-128B
 - Qwen3 32B
 - Microsoft Phi4
-- <font color="red">Possible GP 4o</font>
+- <font color="red">Possible GPT 4o</font>
 - <font color="red">Possible Claude 4</font>
 
 

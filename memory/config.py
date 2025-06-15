@@ -5,7 +5,12 @@ Configuration settings for the memory module.
 import os
 from dataclasses import dataclass
 from typing import Optional
+import enum
 
+class ModelApiType(enum.Enum):
+    """Enum for model API types."""
+    NVIDIA = 'nvidia'
+    GOOGLE = 'google'
 
 @dataclass
 class MemoryConfig:
@@ -17,6 +22,8 @@ class MemoryConfig:
     verbose: bool = False
     # Decay factor for memory length, for example, 0.3 means 30% of the memory length will be decayed in each round
     decay: float = 0.0
+    model_name: Optional[str] = None
+    model_api_type: ModelApiType = ModelApiType.NVIDIA
 
     def __post_init__(self) -> None:
         """Validate configuration parameters after initialization."""
@@ -38,7 +45,9 @@ class MemoryConfig:
             storage_path=os.getenv('MEMORY_STORAGE_PATH'),
             max_entries=int(os.getenv('MEMORY_MAX_ENTRIES', '100')),
             verbose=os.getenv('MEMORY_VERBOSE', 'false').lower() == 'true',
-            decay=float(os.getenv('MEMORY_DECAY', '0.0'))
+            decay=float(os.getenv('MEMORY_DECAY', '0.0')),
+            model_name=os.getenv('MEMORY_MODEL_NAME'),
+            model_api_type=ModelApiType(os.getenv('MEMORY_MODEL_API_TYPE', 'nvidia').lower())
         )
 
     def to_dict(self) -> dict:
@@ -47,7 +56,9 @@ class MemoryConfig:
             'storage_path': self.storage_path,
             'max_entries': self.max_entries,
             'verbose': self.verbose,
-            'decay': self.decay
+            'decay': self.decay,
+            'model_name': self.model_name,
+            'model_api_type': self.model_api_type.value
         }
 
 

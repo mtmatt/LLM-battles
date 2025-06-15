@@ -8,7 +8,7 @@ import shutil
 
 from memory.utils import create_memory_from_config
 from memory.config import MemoryConfig
-from memory.core import MemoryManager
+from memory.core import SimpleMemoryManager
 
 
 class TestUtilityFunctions:
@@ -25,7 +25,7 @@ class TestUtilityFunctions:
         
         manager = create_memory_from_config(config)
         
-        assert isinstance(manager, MemoryManager)
+        assert isinstance(manager, SimpleMemoryManager)
         assert manager.max_entries == 10
         assert manager.verbose is False
 
@@ -41,7 +41,7 @@ class TestUtilityFunctions:
             
             manager = create_memory_from_config(config)
             
-            assert isinstance(manager, MemoryManager)
+            assert isinstance(manager, SimpleMemoryManager)
             assert manager.storage_path == temp_dir
             assert manager.max_entries == 5
             assert manager.verbose is True
@@ -68,7 +68,7 @@ class TestUtilityFunctions:
         config = MemoryConfig(storage_path=None)
         manager = create_memory_from_config(config)
         
-        assert isinstance(manager, MemoryManager)
+        assert isinstance(manager, SimpleMemoryManager)
         # Should use default storage path
         assert manager.storage_path == "memory_data"
 
@@ -86,8 +86,8 @@ class TestUtilityFunctions:
         
         # Should be different instances
         assert manager1 is not manager2
-        assert isinstance(manager1, MemoryManager)
-        assert isinstance(manager2, MemoryManager)
+        assert isinstance(manager1, SimpleMemoryManager)
+        assert isinstance(manager2, SimpleMemoryManager)
         
         # But with same configuration
         assert manager1.max_entries == manager2.max_entries
