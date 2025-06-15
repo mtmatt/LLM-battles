@@ -1,1 +1,0 @@
-# LLM Battles project
