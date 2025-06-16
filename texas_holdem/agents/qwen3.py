@@ -1,11 +1,13 @@
-from .baseagent import BaseAgent
+from .llm_agent import LLMAgent
+from memory import ModelApiType
 
-class Qwen3Agent(BaseAgent):
+class Qwen3Agent(LLMAgent):
     def __init__(self, input_receiver=None):
-        super().__init__(input_receiver)
-        self.name = 'Qwen3 235B a22B'
-
-    def declare_action(self, valid_actions, hole_card, round_state):
-        # Here you would implement the logic to interact with Qwen 3 70B API
-        # For now, we will just call the base class method
-        return super().declare_action(valid_actions, hole_card, round_state)
+        super().__init__(
+            agent_name='Qwen3_235B',
+            # llm_name='qwen/qwen3-235b-a22b',
+            llm_name='deepseek-ai/deepseek-r1-distill-qwen-32b',
+            llm_api_type=ModelApiType.NVIDIA,
+            input_receiver=input_receiver
+        )
+        self.name = 'Qwen3 235B'

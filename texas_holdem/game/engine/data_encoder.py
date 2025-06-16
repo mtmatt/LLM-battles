@@ -1,8 +1,8 @@
 from functools import reduce
 
-from game.engine.pay_info import PayInfo
-from game.engine.poker_constants import PokerConstants as Const
-from game.engine.game_evaluator import GameEvaluator
+from texas_holdem.game.engine.pay_info import PayInfo
+from texas_holdem.game.engine.poker_constants import PokerConstants as Const
+from texas_holdem.game.engine.game_evaluator import GameEvaluator
 
 
 class DataEncoder:

@@ -1,7 +1,7 @@
 import math
-from game.engine.pay_info import PayInfo
-from game.engine.card import Card
-from game.engine.poker_constants import PokerConstants as Const
+from texas_holdem.game.engine.pay_info import PayInfo
+from texas_holdem.game.engine.card import Card
+from texas_holdem.game.engine.poker_constants import PokerConstants as Const
 
 
 class Player:

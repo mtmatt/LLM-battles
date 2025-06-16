@@ -2,8 +2,8 @@ import math
 from functools import reduce
 from itertools import groupby
 
-from game.engine.hand_evaluator import HandEvaluator
-from game.engine.pay_info import PayInfo
+from texas_holdem.game.engine.hand_evaluator import HandEvaluator
+from texas_holdem.game.engine.pay_info import PayInfo
 
 
 class GameEvaluator:

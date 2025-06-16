@@ -1,5 +1,5 @@
-from game.engine.data_encoder import DataEncoder
-from game.engine.action_checker import ActionChecker
+from texas_holdem.game.engine.data_encoder import DataEncoder
+from texas_holdem.game.engine.action_checker import ActionChecker
 
 
 class MessageBuilder:

@@ -1,11 +1,11 @@
 import random
 from collections import OrderedDict
 
-from game.engine.poker_constants import PokerConstants as Const
-from game.engine.table import Table
-from game.engine.player import Player
-from game.engine.round_manager import RoundManager
-from game.engine.message_builder import MessageBuilder
+from texas_holdem.game.engine.poker_constants import PokerConstants as Const
+from texas_holdem.game.engine.table import Table
+from texas_holdem.game.engine.player import Player
+from texas_holdem.game.engine.round_manager import RoundManager
+from texas_holdem.game.engine.message_builder import MessageBuilder
 
 
 class Dealer:

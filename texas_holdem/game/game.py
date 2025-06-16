@@ -1,5 +1,5 @@
-from game.engine.dealer import Dealer
-from game.players import BasePokerPlayer
+from texas_holdem.game.engine.dealer import Dealer
+from texas_holdem.game.players import BasePokerPlayer
 
 
 def setup_config(max_round, initial_stack, small_blind_amount, ante=0):

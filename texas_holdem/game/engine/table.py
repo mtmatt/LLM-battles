@@ -1,6 +1,6 @@
-from game.engine.card import Card
-from game.engine.seats import Seats
-from game.engine.deck import Deck
+from texas_holdem.game.engine.card import Card
+from texas_holdem.game.engine.seats import Seats
+from texas_holdem.game.engine.deck import Deck
 
 
 class Table:

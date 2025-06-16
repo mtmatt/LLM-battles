@@ -1,5 +1,5 @@
-from game.engine.pay_info import PayInfo
-from game.engine.player import Player
+from texas_holdem.game.engine.pay_info import PayInfo
+from texas_holdem.game.engine.player import Player
 
 
 class Seats:

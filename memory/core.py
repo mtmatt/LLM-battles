@@ -101,7 +101,7 @@ class SimpleMemoryManager:
                             {'role': 'user',
                                 'content': memory_compression_prompt}
                         ],
-                        max_tokens=max_tokens + 128,
+                        max_tokens=4096,
                         temperature=0.2,
                         top_p=0.95
                     )
@@ -110,7 +110,7 @@ class SimpleMemoryManager:
                     config = types.GenerateContentConfig(
                         temperature=0.2,
                         top_p=0.95,
-                        max_output_tokens=max_tokens + 128,
+                        max_output_tokens=4096,
                         system_instruction=self._system_prompt,
                     )
                     response = self._llm_client.models.generate_content(
@@ -134,9 +134,9 @@ class SimpleMemoryManager:
                 if self.verbose:
                     print(f'[Memory Manger] Compressed memory entry {i}')
             else:
-                print(f'Summary: {summarized_memory}')
-                raise ValueError(
-                    'Memory compression did not return a valid summary. Ensure the LLM is configured correctly.')
+                self._memory_store[i] = summarized_memory
+                if self.verbose:
+                    print(f'[Memory Manger] Compressed memory entry {i} without tags')
 
     def store(self, value: Any) -> None:
         """

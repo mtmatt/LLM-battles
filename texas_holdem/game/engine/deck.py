@@ -1,6 +1,6 @@
 from functools import reduce
 
-from game.engine.card import Card
+from texas_holdem.game.engine.card import Card
 import random
 
 

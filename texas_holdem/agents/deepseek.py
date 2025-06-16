@@ -1,11 +1,12 @@
-from .baseagent import BaseAgent
+from .llm_agent import LLMAgent
+from memory import ModelApiType
 
-class DeepseekAgent(BaseAgent):
+class DeepseekAgent(LLMAgent):
     def __init__(self, input_receiver=None):
-        super().__init__(input_receiver)
+        super().__init__(
+            agent_name='DeepSeek_R1',
+            llm_name='deepseek-ai/deepseek-r1',  # Use available model
+            llm_api_type=ModelApiType.NVIDIA,
+            input_receiver=input_receiver
+        )
         self.name = 'DeepSeek R1'
-
-    def declare_action(self, valid_actions, hole_card, round_state):
-        # Here you would implement the logic to interact with DeepSeek 70B API
-        # For now, we will just call the base class method
-        return super().declare_action(valid_actions, hole_card, round_state)
