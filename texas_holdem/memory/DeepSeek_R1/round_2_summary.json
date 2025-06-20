@@ -1,0 +1,87 @@
+{
+  "round": 2,
+  "winners": [
+    {
+      "name": "Gemma3_27B",
+      "uuid": "agloixlemklsmcewdyxllh",
+      "stack": 1040,
+      "state": "participating"
+    }
+  ],
+  "hand_info": [],
+  "my_actions": [
+    {
+      "timestamp": "2025-06-17T08:15:19.931437",
+      "round": 1,
+      "action": "fold",
+      "amount": 0,
+      "expression": "*shrugs and slides cards toward the dealer* Alright, I'll get the next one.",
+      "thought": "1. **Hand Strength**: DQ (Queen of Diamonds) and S2 (2 of Spades) is a very weak preflop hand. The offsuit low queen has minimal high-card value, no pair potential, and is easily dominated. Fold equity is near zero.  \n\n2. **Betting Situation**: Qwen3 raised to 150 (likely from 30 in blinds), creating a pot of 180. Calling requires 150 more chips for a 2.2:1 pot odds, but the hand lacks implied odds or showdown value.  \n\n3. **Strategy**: Fold immediately. The hand cannot justify investing 150 chips with high risk of being outkicked or crushed post-flop. Preserve stack for stronger spots.  \n\n**Final Decision**: Fold.",
+      "game_state_summary": {
+        "street": "preflop",
+        "pot": 180,
+        "community_cards": "[]",
+        "active_players": 3
+      }
+    },
+    {
+      "timestamp": "2025-06-17T08:28:39.524973",
+      "round": 2,
+      "action": "fold",
+      "amount": 0,
+      "expression": "*tosses cards toward dealer with a light shrug* Not my hand this time.",
+      "thought": "1. **Hand strength assessment**: H6 and DT (10\u2666) is a weak offsuit hand with low connectivity and minimal preflop value\u2014likely dominated by stronger ranges.  \n\n2. **Betting situation**: Qwen3 called 20 (pot now 50), leaving two opponents left to act. Calling 20 risks chips with marginal equity; raising is overly ambitious.  \n\n3. **Strategic considerations**: Fold immediately. The hand lacks potential, and investing further invites losses against multiple opponents. Preserve stack for stronger spots.  \n\n**Conclusion**: Fold\u2014no justification to commit chips.",
+      "game_state_summary": {
+        "street": "preflop",
+        "pot": 50,
+        "community_cards": "[]",
+        "active_players": 4
+      }
+    }
+  ],
+  "opponents_actions": [
+    {
+      "player_uuid": "pvzuqhqitaxavpkxrchcsz",
+      "player_name": "Qwen3",
+      "action": "call",
+      "amount": 20,
+      "timestamp": "2025-06-17T08:28:10.252282"
+    },
+    {
+      "player_uuid": "phkytfhrsfqjttgrabtcef",
+      "player_name": "Nvidia_Llama3_3",
+      "action": "call",
+      "amount": 20,
+      "timestamp": "2025-06-17T08:30:54.749473"
+    },
+    {
+      "player_uuid": "agloixlemklsmcewdyxllh",
+      "player_name": "Gemma3_27B",
+      "action": "call",
+      "amount": 20,
+      "timestamp": "2025-06-17T08:36:11.486864"
+    },
+    {
+      "player_uuid": "phkytfhrsfqjttgrabtcef",
+      "player_name": "Nvidia_Llama3_3",
+      "action": "fold",
+      "amount": 0,
+      "timestamp": "2025-06-17T08:37:01.498288"
+    },
+    {
+      "player_uuid": "agloixlemklsmcewdyxllh",
+      "player_name": "Gemma3_27B",
+      "action": "raise",
+      "amount": 50,
+      "timestamp": "2025-06-17T08:42:07.638839"
+    },
+    {
+      "player_uuid": "pvzuqhqitaxavpkxrchcsz",
+      "player_name": "Qwen3",
+      "action": "fold",
+      "amount": 0,
+      "timestamp": "2025-06-17T08:45:00.703368"
+    }
+  ],
+  "timestamp": "2025-06-17T08:47:50.985650"
+}

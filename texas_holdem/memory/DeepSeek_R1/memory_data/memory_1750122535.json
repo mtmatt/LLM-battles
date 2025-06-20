@@ -1,0 +1,9 @@
+{
+    "7 round before": "Folding avoids poor calls, saves chips, prevents losses from dominated hands.",
+    "6 round before": "Nvidia's Llama3_3 exclusively won the first round of competition.",
+    "5 round before": "In Round 2, Qwen raised 150, Nvidia called, then folded.",
+    "4 round before": "H6/10\u2666 is weak. Facing a 50 pot after Qwen3 called 20, calling risks chips with poor equity; raising is too ambitious. Fold: hand lacks potential, investing invites losses. Preserve stack. Action: fold.",
+    "3 round before": "Gemma3_27B was the winner of round two.",
+    "2 round before": "Qwen3 called 20, Nvidia_Llama3 folded, Gemma3 raised to 50, Qwen3 folded.",
+    "1 round before": "KJo is moderately strong but vulnerable multi-way, needing favorable flops. With a 30 pot and first action, folding is too tight; calling invites multiple opponents, weakening the hand. Raise 3-4x (90-120) to isolate 1-2 opponents, build value, leverage fold equity, and prevent blinds seeing a cheap flop. Fold to significant re-raises without specific reads. Action: raise(60). Expression: Here we go."
+}

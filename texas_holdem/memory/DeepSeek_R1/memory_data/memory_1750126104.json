@@ -1,0 +1,10 @@
+{
+    "8 round before": "Qwen raised 150; Nvidia called then folded Round 2",
+    "7 round before": "Weak hand folds to preserve stack with poor equity.",
+    "6 round before": "Gemma3_27B was declared the winner of round two.",
+    "5 round before": "Gemma3 upgraded, Qwen3 and Nvidia_Llama3 discontinued.",
+    "4 round before": "KJo is vulnerable multi-way. With a 30 pot and first action, folding is too tight; calling invites opponents. Raise 3-4x (90-120) to isolate 1-2 players, build value, leverage fold equity, and prevent cheap flops. Fold to significant re-raises without reads. Action: raise(60).",
+    "3 round before": "Holding DK on D6/S4/ST flop with DJ kicker. Opponents passively called pre-flop; pot 240. No aggression suggests weak pairs/draws. Optimal play: raise ~180 to charge draws, isolate one player, define ranges. Instead, minimal call (\"call(0)\") was made, contradicting the raise rationale.",
+    "2 round before": "Player holds top pair (King) and calls the bet. They sit relaxed, arms resting on the table, state \"Alright, let's keep this going,\" lightly tap fingers beside chips, and say \"I'll ride along for now.\"",
+    "1 round before": "Holding two pair (Kings/Jacks) on a paired 6s board, vulnerable to straights or full houses. Only Gemma remains after passive calls, suggesting a missed draw or medium pair like Tx. With a 240 pot and last action, folding is too tight and calling leaves value. A value raise of 120 targets weaker hands Gemma might hold (e.g., AT/KT), applying pressure. Action: Raise 120."
+}

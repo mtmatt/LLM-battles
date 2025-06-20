@@ -10,4 +10,4 @@ class Gemini25Agent(LLMAgent):
             llm_api_type=ModelApiType.GOOGLE,
             input_receiver=input_receiver
         )
-        self.name = 'Gemini 2.5'
+        self.name = 'Gemini2.5'

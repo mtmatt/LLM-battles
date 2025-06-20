@@ -1,0 +1,44 @@
+[
+  {
+    "timestamp": "2025-06-16T19:26:34.505474",
+    "round": 1,
+    "action": "fold",
+    "amount": 0,
+    "expression": "*shakes head gently and pushes cards away* Nah, not this time.",
+    "thought": "Based on my hole cards (SQ, D6) and the preflop situation:\n\n1. **Hand strength**: Extremely weak. Offsuit Q6 has very low equity preflop - dominated by any higher queen or pair, with poor connectivity.  \n\n2. **Betting situation**: Pot is 50 after Qwen3 called 20 (likely the big blind). I face a call of 20 to continue against two active opponents, one of whom already showed commitment.  \n\n3. **Strategy**: Fold immediately. This hand isn't worth playing out of position\u2014high risk of being dominated post-flop with minimal reward potential. Preserving chips for stronger spots is optimal.  \n\n**Action: fold**",
+    "game_state_summary": {
+      "street": "preflop",
+      "pot": 50,
+      "community_cards": "[]",
+      "active_players": 3
+    }
+  },
+  {
+    "timestamp": "2025-06-16T22:09:28.133193",
+    "round": 1,
+    "action": "fold",
+    "amount": 0,
+    "expression": "*Exhales slowly while pushing cards away* \"Nah, I'm out this round.\"\n\n*Tosses cards towards the dealer with a casual flick* \"Yeah, I'll pass this time.",
+    "thought": "1. **Hand strength assessment:** CJ-offsuit and S6 is a very weak starting hand - unsuited, non-connectors with low playability. Jack-high has marginal value preflop, and the 6 adds almost nothing.  \n\n2. **Betting situation:** Nvidia_Llama3_3 limped (called 20), leaving the pot at 50. Two opponents behind can still act, and all stacks are deep (~1000BB). A call would invite multi-way action with a hand that flops poorly.  \n\n3. **Strategic considerations:** Fold immediately. This hand isn\u2019t worth playing, especially with potential raises behind. Limping commits chips with negative equity, and raising would be reckless. Preserve stack for better spots.  \n\n**Action:** Fold.",
+    "game_state_summary": {
+      "street": "preflop",
+      "pot": 50,
+      "community_cards": "[]",
+      "active_players": 4
+    }
+  },
+  {
+    "timestamp": "2025-06-17T08:15:19.931437",
+    "round": 1,
+    "action": "fold",
+    "amount": 0,
+    "expression": "*shrugs and slides cards toward the dealer* Alright, I'll get the next one.",
+    "thought": "1. **Hand Strength**: DQ (Queen of Diamonds) and S2 (2 of Spades) is a very weak preflop hand. The offsuit low queen has minimal high-card value, no pair potential, and is easily dominated. Fold equity is near zero.  \n\n2. **Betting Situation**: Qwen3 raised to 150 (likely from 30 in blinds), creating a pot of 180. Calling requires 150 more chips for a 2.2:1 pot odds, but the hand lacks implied odds or showdown value.  \n\n3. **Strategy**: Fold immediately. The hand cannot justify investing 150 chips with high risk of being outkicked or crushed post-flop. Preserve stack for stronger spots.  \n\n**Final Decision**: Fold.",
+    "game_state_summary": {
+      "street": "preflop",
+      "pot": 180,
+      "community_cards": "[]",
+      "active_players": 3
+    }
+  }
+]

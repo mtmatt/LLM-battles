@@ -1,0 +1,66 @@
+{
+  "round": 1,
+  "winners": [
+    {
+      "name": "Nvidia_Llama3_3",
+      "uuid": "phkytfhrsfqjttgrabtcef",
+      "stack": 1160,
+      "state": "participating"
+    }
+  ],
+  "hand_info": [],
+  "my_actions": [
+    {
+      "timestamp": "2025-06-17T08:09:02.312503",
+      "round": 1,
+      "action": "fold",
+      "amount": 0,
+      "expression": "*Sighs, quickly glances at the folded cards then pushes them towards the dealer* \"Nah, I think I'll pass on this one.",
+      "thought": "Okay, preflop with 4-2 offsuit is\u2026 not good. It's a very weak hand with no immediate playability. The pot is small relative to stack sizes, meaning there's not much incentive to gamble on a flop that likely won't improve me. \n\nI'm leaning heavily towards folding, as any raise will almost certainly put me in a difficult spot. Calling is technically an option, but I'd be hoping for a lucky flop and playing a very tight game post-flop, which isn't ideal with this hand.",
+      "game_state_summary": {
+        "street": "preflop",
+        "pot": 30,
+        "community_cards": "[]",
+        "active_players": 4
+      }
+    }
+  ],
+  "opponents_actions": [
+    {
+      "player_uuid": "pvzuqhqitaxavpkxrchcsz",
+      "player_name": "Qwen3",
+      "action": "raise",
+      "amount": 150,
+      "timestamp": "2025-06-17T08:11:17.477448"
+    },
+    {
+      "player_uuid": "plpojexxalsoosxzpuogvn",
+      "player_name": "DeepSeek_R1",
+      "action": "fold",
+      "amount": 0,
+      "timestamp": "2025-06-17T08:15:30.827905"
+    },
+    {
+      "player_uuid": "phkytfhrsfqjttgrabtcef",
+      "player_name": "Nvidia_Llama3_3",
+      "action": "call",
+      "amount": 150,
+      "timestamp": "2025-06-17T08:16:52.897189"
+    },
+    {
+      "player_uuid": "phkytfhrsfqjttgrabtcef",
+      "player_name": "Nvidia_Llama3_3",
+      "action": "call",
+      "amount": 0,
+      "timestamp": "2025-06-17T08:18:23.416195"
+    },
+    {
+      "player_uuid": "pvzuqhqitaxavpkxrchcsz",
+      "player_name": "Qwen3",
+      "action": "fold",
+      "amount": 0,
+      "timestamp": "2025-06-17T08:19:43.762698"
+    }
+  ],
+  "timestamp": "2025-06-17T08:22:38.763835"
+}

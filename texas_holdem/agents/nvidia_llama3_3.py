@@ -9,4 +9,4 @@ class NvidiaLlama3_3Agent(LLMAgent):
             llm_api_type=ModelApiType.NVIDIA,
             input_receiver=input_receiver
         )
-        self.name = 'Nvidia Llama3.3 70B'
+        self.name = 'NvidiaLlama3.3'

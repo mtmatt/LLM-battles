@@ -1,0 +1,30 @@
+[
+  {
+    "timestamp": "2025-06-17T08:32:14.714160",
+    "round": 2,
+    "action": "call",
+    "amount": 20,
+    "expression": "*Slightly rubs chin, then pushes chips forward* \"Just gonna see another card, I guess.",
+    "thought": "Okay, let's analyze.\n\n1. **Hand Strength:** CKH3 is a weak hand preflop \u2013 a low connected card and a King. It has *some* potential for a flush or straight, but needs significant improvement.\n2. **Betting Situation:** Both opponents called a preflop raise of 20, indicating they likely have decent, but not premium, hands. DeepSeek_R1 folded, so it's now heads-up against Qwen3 and Nvidia_Llama3_3.\n3. **Strategic Considerations:** Given the weak hand and heads-up situation, I'll lean towards a call to see the flop cheaply, hoping to hit something. Raising would be unwise with this hand, and folding feels too tight this early.",
+    "game_state_summary": {
+      "street": "preflop",
+      "pot": 60,
+      "community_cards": "[]",
+      "active_players": 3
+    }
+  },
+  {
+    "timestamp": "2025-06-17T08:38:21.198571",
+    "round": 2,
+    "action": "raise",
+    "amount": 50,
+    "expression": "*Looks at cards again, then pushes chips forward with a slight flick of the wrist* \"Just gonna make it fifty.",
+    "thought": "Okay, let's break this down.\n\n1. **Hand Strength:** I have a King-high with a backdoor flush draw. It's a weak hand currently, relying on hitting a King, a Heart flush, or improving to a better pair on later streets.\n\n2. **Betting Situation:** Qwen3 called the initial bet, DeepSeek and Nvidia_Llama3_3 both called then folded. This suggests Qwen3 might have something, but their willingness to call a small bet doesn't scream monster.\n\n3. **Strategic Considerations:** Given the weak hand and only one opponent remaining, a small raise could test their strength and potentially take down the pot. However, I need to be prepared to fold if they re-raise, as chasing with just King-high is risky. I'll lean towards a small raise for information.",
+    "game_state_summary": {
+      "street": "flop",
+      "pot": 60,
+      "community_cards": "['SK', 'C4', 'S8']",
+      "active_players": 2
+    }
+  }
+]

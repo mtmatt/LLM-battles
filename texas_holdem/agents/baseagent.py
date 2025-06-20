@@ -77,6 +77,14 @@ class BaseAgent(BasePokerPlayer):
         print(U.visualize_round_start(round_count, hole_card, seats, self.uuid))
         self.round_count = round_count
         
+        # Store opponent's action on the last round in memory
+        stored_info: str = ''.join(
+            f"{action['player_name']} {action['action']}({action['amount']}) at {action['timestamp']}\n"
+            for action in self.opponents_actions
+        )
+        if len(stored_info) > 0:
+            self.memory.store(f"Round {self.round_count} opponent actions:\n{stored_info}")
+        
         # Reset round-specific tracking
         self.opponents_actions = []
         self.opponents_expressions = []
@@ -92,18 +100,15 @@ class BaseAgent(BasePokerPlayer):
         
         # Track opponent actions and expressions (if available)
         if new_action.get("player_uuid") != self.uuid:
+            player_name = new_action.get("player_name", new_action.get("player_uuid", "Unknown"))
             opponent_data = {
                 "player_uuid": new_action.get("player_uuid"),
+                "player_name": player_name,
                 "action": new_action.get("action"),
                 "amount": new_action.get("amount"),
                 "timestamp": datetime.now().isoformat()
             }
             self.opponents_actions.append(opponent_data)
-            
-            # Store opponent's action in memory
-            opponent_info = f"Opponent {new_action.get('player_uuid')} performed {new_action.get('action')}({new_action.get('amount')})"
-            self.memory.store(f"Round {self.round_count} - Opponent Action: {opponent_info}")
-        
         self.__wait_until_input()
 
     def receive_round_result_message(self, winners, hand_info, round_state):

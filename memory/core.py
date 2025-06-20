@@ -106,6 +106,7 @@ class SimpleMemoryManager:
                         top_p=0.95
                     )
                     summarized_memory = response.choices[0].message.content
+                    time.sleep(5)
                 elif self.llm_api_type == ModelApiType.GOOGLE:
                     config = types.GenerateContentConfig(
                         temperature=0.2,
@@ -118,12 +119,20 @@ class SimpleMemoryManager:
                         contents=memory_compression_prompt,
                         config=config
                     )
-                    print(f'Res: {response}')
                     summarized_memory = response.text
+                    time.sleep(10)
             else:
                 raise ValueError(
                     'LLM client is not initialized. Cannot apply decay.')
 
+            if not summarized_memory:
+                if self.verbose:
+                    print(f'[Memory Manger] Empty summary for memory entry {i}')
+                # Compress in basic way
+                self._memory_store[i] = self._memory_store[i][:max_tokens]
+                if self.verbose:
+                    print(f'[Memory Manger] Compressed memory entry {i} without LLM')
+                continue
             # Extract summary from <summary> tags
             summary_match = re.search(
                 r'<summary>(.*?)</summary>|<summary>(.*?)$|\(summary\)(.*?)\(/summary\)|\(summary\)(.*?)$|\[summary\](.*?)\[/summary\]|\[summary\](.*?)$|\{summary\}(.*?)\{/summary\}|\{summary\}(.*?)$',
@@ -156,6 +165,7 @@ class SimpleMemoryManager:
         if self.verbose:
             print(
                 f"[Memory Manger] Current memory size: {len(self._memory_store)}")
+        self.save_to_file()
 
     def retrieve(self) -> Optional[str]:
         """
@@ -192,7 +202,7 @@ class SimpleMemoryManager:
         """
         if filename is None:
             filename = os.path.join(
-                self.storage_path, f'memory_{int(os.time.time())}.json')
+                self.storage_path, f'memory_{int(time.time())}.json')
 
         memory_json = {}
         for idx, value in enumerate(self._memory_store):

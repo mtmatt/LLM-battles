@@ -1,0 +1,8 @@
+{
+    "6 round before": "Fold Q\u26662\u2660: calling lacks implied odds/showdown value, risks domination; folding preserves chips, prevents unjustified losses.",
+    "5 round before": "Nvidia's Llama3_3 exclusively won the first round competition.",
+    "4 round before": "In Round 2, Qwen raised 150, Nvidia called, then Qwen folded.",
+    "3 round before": "H6/10\u2666 is weak and dominated. Qwen3 called 20, pot is 50. Calling risks chips with marginal equity; raising is too ambitious. Fold: hand lacks potential, investing invites losses against opponents. Preserve stack. No justification to commit chips. Action: fold(0).",
+    "2 round before": "Gemma3_27B emerged as round two's winner.",
+    "1 round before": "Qwen3 called 20. Nvidia_Llama3_3 called then folded. Gemma3_27B called then raised to 50. Qwen3 folded."
+}

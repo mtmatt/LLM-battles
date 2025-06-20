@@ -1,0 +1,10 @@
+{
+    "8 round before": "Folding avoids bad calls, saves chips, prevents dominated-hand losses.",
+    "7 round before": "Nvidia's Llama3_3 won the first competition round.",
+    "6 round before": "Qwen raised 150; Nvidia called then folded in Round 2.",
+    "5 round before": "Weak H6/10\u2666 faces 50 pot. Calling risks chips, raising too ambitious. Fold: poor equity, preserve stack.",
+    "4 round before": "Gemma3_27B was declared the winner of round two.",
+    "3 round before": "Gemma3 raised to 50; Qwen3 and Nvidia_Llama3 folded.",
+    "2 round before": "KJo is moderately strong but vulnerable multi-way. With 30 pot and first action, folding is too tight; calling invites opponents, weakening it. Raise 3-4x (90-120) to isolate 1-2 players, build value, leverage fold equity, and prevent cheap flops. Fold to significant re-raises without specific reads. Action: raise(60). Expression: Here we go.",
+    "1 round before": "Holding top pair DK on dry D6/S4/ST flop with decent DJ kicker and backdoor flush potential. Opponents passively called pre-flop; pot is 240 with no post-flop aggression, suggesting marginal hands like weak pairs or draws. Optimal strategy is to raise ~180 to charge draws, isolate one player, and define ranges\u2014folding is too weak, calling risks multi-way pots and free turn cards. However, action taken is a minimal call (\"call(0)\") with a shrug and verbalization \"Guess I'll stay in for now,\" contradicting the raise rationale."
+}

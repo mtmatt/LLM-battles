@@ -118,6 +118,9 @@ Please provide a summary in markdown format."""}
         Current street: {round_state.get('street', 'unknown')}
         Pot size: {round_state.get('pot', {}).get('main', {}).get('amount', 0)}
         
+        Opponents:
+        {self._format_opponents_info(round_state)}
+        
         Valid actions: {[action['action'] for action in valid_actions]}
         
         Recent memory/context:
@@ -191,6 +194,9 @@ Please provide a summary in markdown format."""}
         Pot size: {round_state.get('pot', {}).get('main', {}).get('amount', 0)}
         Your stack: {self._get_my_stack(round_state)}
         
+        OPPONENTS:
+        {self._format_opponents_info(round_state)}
+        
         VALID ACTIONS:
         {self._format_valid_actions(valid_actions)}
         
@@ -256,7 +262,7 @@ Please provide a summary in markdown format."""}
             return action, amount
             
         except Exception as e:
-            print(f"Error making AI decision: {e}")
+            print(f"Error making AI decision ({self.agent_name}): {e}")
             print("Falling back to random valid action...")
             return self._make_fallback_decision(valid_actions)
 
@@ -398,3 +404,14 @@ Please provide a summary in markdown format."""}
                 return action['action'], action['amount']
         # If no call available, take first valid action (usually fold)
         return valid_actions[0]['action'], valid_actions[0]['amount']
+
+    def _format_opponents_info(self, round_state):
+        """Format opponent information for the prompt."""
+        opponents_info = []
+        for seat in round_state.get('seats', []):
+            if seat.get('uuid') != self.uuid:
+                name = seat.get('name', 'Unknown')
+                stack = seat.get('stack', 0)
+                state = seat.get('state', 'unknown')
+                opponents_info.append(f"{name}: Stack={stack}, Status={state}")
+        return "; ".join(opponents_info) if opponents_info else "No opponents"

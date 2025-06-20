@@ -1,0 +1,94 @@
+{
+  "round": 2,
+  "winners": [
+    {
+      "name": "Gemma3_27B",
+      "uuid": "agloixlemklsmcewdyxllh",
+      "stack": 1040,
+      "state": "participating"
+    }
+  ],
+  "hand_info": [],
+  "my_actions": [
+    {
+      "timestamp": "2025-06-17T08:09:02.312503",
+      "round": 1,
+      "action": "fold",
+      "amount": 0,
+      "expression": "*Sighs, quickly glances at the folded cards then pushes them towards the dealer* \"Nah, I think I'll pass on this one.",
+      "thought": "Okay, preflop with 4-2 offsuit is\u2026 not good. It's a very weak hand with no immediate playability. The pot is small relative to stack sizes, meaning there's not much incentive to gamble on a flop that likely won't improve me. \n\nI'm leaning heavily towards folding, as any raise will almost certainly put me in a difficult spot. Calling is technically an option, but I'd be hoping for a lucky flop and playing a very tight game post-flop, which isn't ideal with this hand.",
+      "game_state_summary": {
+        "street": "preflop",
+        "pot": 30,
+        "community_cards": "[]",
+        "active_players": 4
+      }
+    },
+    {
+      "timestamp": "2025-06-17T08:32:14.714160",
+      "round": 2,
+      "action": "call",
+      "amount": 20,
+      "expression": "*Slightly rubs chin, then pushes chips forward* \"Just gonna see another card, I guess.",
+      "thought": "Okay, let's analyze.\n\n1. **Hand Strength:** CKH3 is a weak hand preflop \u2013 a low connected card and a King. It has *some* potential for a flush or straight, but needs significant improvement.\n2. **Betting Situation:** Both opponents called a preflop raise of 20, indicating they likely have decent, but not premium, hands. DeepSeek_R1 folded, so it's now heads-up against Qwen3 and Nvidia_Llama3_3.\n3. **Strategic Considerations:** Given the weak hand and heads-up situation, I'll lean towards a call to see the flop cheaply, hoping to hit something. Raising would be unwise with this hand, and folding feels too tight this early.",
+      "game_state_summary": {
+        "street": "preflop",
+        "pot": 60,
+        "community_cards": "[]",
+        "active_players": 3
+      }
+    },
+    {
+      "timestamp": "2025-06-17T08:38:21.198571",
+      "round": 2,
+      "action": "raise",
+      "amount": 50,
+      "expression": "*Looks at cards again, then pushes chips forward with a slight flick of the wrist* \"Just gonna make it fifty.",
+      "thought": "Okay, let's break this down.\n\n1. **Hand Strength:** I have a King-high with a backdoor flush draw. It's a weak hand currently, relying on hitting a King, a Heart flush, or improving to a better pair on later streets.\n\n2. **Betting Situation:** Qwen3 called the initial bet, DeepSeek and Nvidia_Llama3_3 both called then folded. This suggests Qwen3 might have something, but their willingness to call a small bet doesn't scream monster.\n\n3. **Strategic Considerations:** Given the weak hand and only one opponent remaining, a small raise could test their strength and potentially take down the pot. However, I need to be prepared to fold if they re-raise, as chasing with just King-high is risky. I'll lean towards a small raise for information.",
+      "game_state_summary": {
+        "street": "flop",
+        "pot": 60,
+        "community_cards": "['SK', 'C4', 'S8']",
+        "active_players": 2
+      }
+    }
+  ],
+  "opponents_actions": [
+    {
+      "player_uuid": "pvzuqhqitaxavpkxrchcsz",
+      "player_name": "Qwen3",
+      "action": "call",
+      "amount": 20,
+      "timestamp": "2025-06-17T08:28:10.255628"
+    },
+    {
+      "player_uuid": "plpojexxalsoosxzpuogvn",
+      "player_name": "DeepSeek_R1",
+      "action": "fold",
+      "amount": 0,
+      "timestamp": "2025-06-17T08:29:45.671842"
+    },
+    {
+      "player_uuid": "phkytfhrsfqjttgrabtcef",
+      "player_name": "Nvidia_Llama3_3",
+      "action": "call",
+      "amount": 20,
+      "timestamp": "2025-06-17T08:30:54.749673"
+    },
+    {
+      "player_uuid": "phkytfhrsfqjttgrabtcef",
+      "player_name": "Nvidia_Llama3_3",
+      "action": "fold",
+      "amount": 0,
+      "timestamp": "2025-06-17T08:37:01.498733"
+    },
+    {
+      "player_uuid": "pvzuqhqitaxavpkxrchcsz",
+      "player_name": "Qwen3",
+      "action": "fold",
+      "amount": 0,
+      "timestamp": "2025-06-17T08:45:00.703654"
+    }
+  ],
+  "timestamp": "2025-06-17T08:54:00.478719"
+}

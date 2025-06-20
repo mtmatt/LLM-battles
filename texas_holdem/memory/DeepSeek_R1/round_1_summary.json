@@ -1,0 +1,66 @@
+{
+  "round": 1,
+  "winners": [
+    {
+      "name": "Nvidia_Llama3_3",
+      "uuid": "phkytfhrsfqjttgrabtcef",
+      "stack": 1160,
+      "state": "participating"
+    }
+  ],
+  "hand_info": [],
+  "my_actions": [
+    {
+      "timestamp": "2025-06-17T08:15:19.931437",
+      "round": 1,
+      "action": "fold",
+      "amount": 0,
+      "expression": "*shrugs and slides cards toward the dealer* Alright, I'll get the next one.",
+      "thought": "1. **Hand Strength**: DQ (Queen of Diamonds) and S2 (2 of Spades) is a very weak preflop hand. The offsuit low queen has minimal high-card value, no pair potential, and is easily dominated. Fold equity is near zero.  \n\n2. **Betting Situation**: Qwen3 raised to 150 (likely from 30 in blinds), creating a pot of 180. Calling requires 150 more chips for a 2.2:1 pot odds, but the hand lacks implied odds or showdown value.  \n\n3. **Strategy**: Fold immediately. The hand cannot justify investing 150 chips with high risk of being outkicked or crushed post-flop. Preserve stack for stronger spots.  \n\n**Final Decision**: Fold.",
+      "game_state_summary": {
+        "street": "preflop",
+        "pot": 180,
+        "community_cards": "[]",
+        "active_players": 3
+      }
+    }
+  ],
+  "opponents_actions": [
+    {
+      "player_uuid": "agloixlemklsmcewdyxllh",
+      "player_name": "Gemma3_27B",
+      "action": "fold",
+      "amount": 0,
+      "timestamp": "2025-06-17T08:10:14.888982"
+    },
+    {
+      "player_uuid": "pvzuqhqitaxavpkxrchcsz",
+      "player_name": "Qwen3",
+      "action": "raise",
+      "amount": 150,
+      "timestamp": "2025-06-17T08:11:17.476086"
+    },
+    {
+      "player_uuid": "phkytfhrsfqjttgrabtcef",
+      "player_name": "Nvidia_Llama3_3",
+      "action": "call",
+      "amount": 150,
+      "timestamp": "2025-06-17T08:16:52.896676"
+    },
+    {
+      "player_uuid": "phkytfhrsfqjttgrabtcef",
+      "player_name": "Nvidia_Llama3_3",
+      "action": "call",
+      "amount": 0,
+      "timestamp": "2025-06-17T08:18:23.415866"
+    },
+    {
+      "player_uuid": "pvzuqhqitaxavpkxrchcsz",
+      "player_name": "Qwen3",
+      "action": "fold",
+      "amount": 0,
+      "timestamp": "2025-06-17T08:19:43.762177"
+    }
+  ],
+  "timestamp": "2025-06-17T08:21:11.094186"
+}

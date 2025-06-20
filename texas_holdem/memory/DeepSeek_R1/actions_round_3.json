@@ -1,0 +1,58 @@
+[
+  {
+    "timestamp": "2025-06-17T09:07:12.867590",
+    "round": 3,
+    "action": "raise",
+    "amount": 60,
+    "expression": "Here we go.",
+    "thought": "**1. Hand Strength:** Offsuit KJo is moderately strong preflop \u2013 playable but vulnerable multi-way. It needs favorable flops to continue.  \n\n**2. Betting Situation:** Pot is 30 with no prior actions. First to act, I must set the tone. Folding is too tight; calling invites multiple opponents, weakening KJo.  \n\n**3. Strategy:** Raise 3-4x (90-120) to isolate 1-2 opponents, build value, and leverage fold equity. Avoid letting blinds see a cheap flop. Fold to significant re-raises unless reads suggest bluffing.",
+    "game_state_summary": {
+      "street": "preflop",
+      "pot": 30,
+      "community_cards": "[]",
+      "active_players": 4
+    }
+  },
+  {
+    "timestamp": "2025-06-17T09:40:05.965433",
+    "round": 3,
+    "action": "call",
+    "amount": 0,
+    "expression": "*shrugs while pushing chips minimally forward* \"Guess I'll stay in for now.",
+    "thought": "1. **Hand Strength**: I hold top pair with DK (King of Diamonds) on a dry flop (D6, S4, ST). Decent kicker (DJ) and backdoor flush potential. Strong hand currently, but vulnerable to overcards or draws.  \n\n2. **Betting Situation**: Two opponents called pre-flop passively. Pot is 240, and no aggression shown post-flop yet. They likely have marginal hands (pairs, draws, or weak kings).  \n\n3. **Strategy**: **Raise** to ~180. Charge draws (gutshots/backdoor flushes), isolate one opponent, and define their ranges. Folding is too weak; calling invites multi-way pots and free turn cards.  \n\n---  \n*Internal thought complete.*",
+    "game_state_summary": {
+      "street": "flop",
+      "pot": 240,
+      "community_cards": "['D6', 'S4', 'ST']",
+      "active_players": 3
+    }
+  },
+  {
+    "timestamp": "2025-06-17T09:51:02.720270",
+    "round": 3,
+    "action": "call",
+    "amount": 0,
+    "expression": "*rests arms on the table with relaxed posture* \"Alright, let's keep this going.\"  \n*lightly taps two fingers beside chips* \"I'll ride along for now.",
+    "thought": "1. **Hand Strength:** Top pair (King) with",
+    "game_state_summary": {
+      "street": "turn",
+      "pot": 240,
+      "community_cards": "['D6', 'S4', 'ST', 'D5']",
+      "active_players": 2
+    }
+  },
+  {
+    "timestamp": "2025-06-17T10:04:19.609834",
+    "round": 3,
+    "action": "raise",
+    "amount": 120,
+    "expression": "*pushes chips forward deliberately* Let's add a little pressure to the pot.",
+    "thought": "**1. Hand strength:** I have two pair (Kings and Jacks) on a board with paired 6s. Vulnerable to straights (missed 7x/3x) or trips/full houses (any 6x or Tx hand beats me). Marginal but not weak.\n\n**2. Betting situation:** Only Gemma remains after others folded. Gemma called three times passively\u2014likely on a draw or medium pair. Pot is 240, and I'm last to act. No aggression suggests weakness.\n\n**3. Strategy:** Gemma\u2019s passive line implies they missed draws or hold a weaker pair (e.g., Tx). I should **raise for value** (small, ~120-180) to target hands like AT/KT. Folding is too tight; calling leaves value behind.",
+    "game_state_summary": {
+      "street": "river",
+      "pot": 240,
+      "community_cards": "['D6', 'S4', 'ST', 'D5', 'H6']",
+      "active_players": 2
+    }
+  }
+]

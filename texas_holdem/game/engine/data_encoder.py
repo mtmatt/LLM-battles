@@ -69,7 +69,12 @@ class DataEncoder:
 
     @classmethod
     def encode_action(self, player, action, amount):
-        return {"player_uuid": player.uuid, "action": action, "amount": amount}
+        return {
+            "player_uuid": player.uuid, 
+            "player_name": player.name,
+            "action": action, 
+            "amount": amount
+        }
 
     @classmethod
     def encode_street(self, street):

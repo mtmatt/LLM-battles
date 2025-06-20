@@ -9,4 +9,4 @@ class Gemma3Agent(LLMAgent):
             llm_api_type=ModelApiType.NVIDIA,
             input_receiver=input_receiver
         )
-        self.name = 'Gemma3 27B'
+        self.name = 'Gemma3'

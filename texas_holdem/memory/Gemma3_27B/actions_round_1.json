@@ -1,0 +1,114 @@
+[
+  {
+    "timestamp": "2025-06-16T19:41:36.967078",
+    "round": 1,
+    "action": "call",
+    "amount": 20,
+    "expression": "*Looks at my cards again, then pushes chips forward with a small sigh* \"Twenty. Let's keep it going.",
+    "thought": "Okay, preflop with 4-5 is a weak hand, but not terrible \u2013 it has some potential for a straight or flush draw. Qwen3 called a bet of 20, suggesting they likely have *something*, but could be a wide range given it's only 20 into a 50 pot. I'll lean towards a call to see the flop cheaply and evaluate, but a raise is out of the question with this hand.",
+    "game_state_summary": {
+      "street": "preflop",
+      "pot": 50,
+      "community_cards": "[]",
+      "active_players": 2
+    }
+  },
+  {
+    "timestamp": "2025-06-16T19:52:50.716208",
+    "round": 1,
+    "action": "call",
+    "amount": 0,
+    "expression": "*Slightly rubs chin, then pushes chips forward* \"Just gonna see another card, why not?",
+    "thought": "Okay, let's analyze.\n\n1. **Hand Strength:** I have a pair of fours, which is currently a very weak hand, but the community card four gives me bottom set. It's a disguised hand with potential if I can see a cheap turn.\n\n2. **Betting Situation:** Only Qwen3 called the initial bet, and the other two folded. The pot is 50, and Qwen3 has a healthy stack, suggesting they likely have *something*, but could be a wide range given the fold equity already realized.\n\n3. **Strategic Considerations:** I'll call to see the turn cheaply and hope to improve or realize my equity if Qwen3 is bluffing. Raising feels premature with such a weak, disguised hand; I want to keep Qwen3 in without inflating the pot too much.\n\n\n\n**Action:** call",
+    "game_state_summary": {
+      "street": "flop",
+      "pot": 50,
+      "community_cards": "['C4', 'DJ', 'H8']",
+      "active_players": 2
+    }
+  },
+  {
+    "timestamp": "2025-06-16T20:21:51.255892",
+    "round": 1,
+    "action": "call",
+    "amount": 0,
+    "expression": "*Slightly rubs chin, then pushes chips forward* \"Just gonna see another card, why not?",
+    "thought": "Okay, let's break this down.\n\n1. **Hand Strength:** I have a pair of fours, and the board is C4 DJ H8 S8. This gives me bottom set, which is good but vulnerable. There's a potential straight and flush draw out there.\n\n2. **Betting Situation:** Only Qwen3 is still in the hand, and they've just called two bets. The pot is 50, and their stack is significant (980), suggesting they likely have *something*.\n\n3. **Strategic Considerations:** I need to decide if my bottom set is worth continuing with against an opponent who has shown willingness to call. A small raise could extract value if they're on a draw, but risks folding out weaker hands. I'll lean towards a call to see the river, hoping to improve or get a cheap showdown.",
+    "game_state_summary": {
+      "street": "turn",
+      "pot": 50,
+      "community_cards": "['C4', 'DJ', 'H8', 'S8']",
+      "active_players": 2
+    }
+  },
+  {
+    "timestamp": "2025-06-16T21:02:53.659046",
+    "round": 1,
+    "action": "raise",
+    "amount": 250,
+    "expression": "*Looks at the pot, then back at my cards with a quick glance, pushing chips forward* \"Just gonna make it a little more interesting.",
+    "thought": "Okay, let's break this down.\n\n1. **Hand Strength:** I have a full house, fours and eights. This is a very strong hand, likely the best at this point, but vulnerable to a higher full house (kings or queens full of anything).\n\n2. **Betting Situation:** Qwen3 has called three times, indicating some level of interest in the hand, but not overwhelming strength. The other two players folded pre-river, so Qwen3 is the only opponent remaining. The pot is 50, and I assume the previous calls were small bets.\n\n3. **Strategic Considerations:** I need to extract value from Qwen3. A simple call feels too passive, risking a showdown with a potentially weaker hand. I will raise to build the pot and see where Qwen3 is at.",
+    "game_state_summary": {
+      "street": "river",
+      "pot": 50,
+      "community_cards": "['C4', 'DJ', 'H8', 'S8', 'H4']",
+      "active_players": 2
+    }
+  },
+  {
+    "timestamp": "2025-06-16T22:14:54.697051",
+    "round": 1,
+    "action": "call",
+    "amount": 20,
+    "expression": "*Looks at my cards again, then pushes chips forward with a small, almost dismissive gesture* \"Yeah, alright, I'll call.",
+    "thought": "Okay, preflop with 6\u2663J\u2666 is a weak hand \u2013 definitely not a premium starter. Nvidia_Llama3_3 called a bet of 20, indicating some interest, but with two folds already, they could be doing that with a wide range. I'll lean towards a conservative approach and call to see a flop cheaply, but be prepared to fold if it doesn't improve.",
+    "game_state_summary": {
+      "street": "preflop",
+      "pot": 50,
+      "community_cards": "[]",
+      "active_players": 2
+    }
+  },
+  {
+    "timestamp": "2025-06-16T22:18:31.790813",
+    "round": 1,
+    "action": "call",
+    "amount": 0,
+    "expression": "*Looks at my cards again, then pushes chips forward with a small, almost dismissive gesture* \"Yeah, alright, I'll see what you've got.",
+    "thought": "Okay, let's break this down.\n\n1. **Hand Strength:** I have a weak hand \u2013 a Jack-high with a potential backdoor flush draw. The flop isn't great, offering no immediate help, but the Queen gives a slight chance for a straight draw if a Ten comes.\n\n2. **Betting Situation:** It's currently heads-up with Nvidia_Llama3_3 after two folds. They called a bet of 20 into a 50 pot, suggesting a somewhat decent, but not necessarily strong, hand.\n\n3. **Strategic Considerations:** Given my weak hand and the heads-up situation, I'm leaning towards a conservative approach. Calling to see the turn is viable to chase a draw, but raising feels unjustified. I'll **call** to see if I can improve, but be prepared to fold on the turn if it doesn't connect.",
+    "game_state_summary": {
+      "street": "flop",
+      "pot": 50,
+      "community_cards": "['CQ', 'H8', 'DK']",
+      "active_players": 2
+    }
+  },
+  {
+    "timestamp": "2025-06-16T22:23:47.945425",
+    "round": 1,
+    "action": "fold",
+    "amount": 0,
+    "expression": "*Sighs, quickly glances at the folded cards, then pushes them into the muck* \"Nah, I think I'll pass on this one.",
+    "thought": "Okay, let's break this down.\n\n1. **Hand Strength:** I have a weak hand \u2013 just a Jack-high with a backdoor flush draw. The paired eights on the board don't help, and I'm not hitting anything significant currently.\n\n2. **Betting Situation:** It's heads-up now after two folds, and Nvidia_Llama3_3 has called twice, including a bet of 20. This suggests they likely have *something*, but the calls aren't huge, indicating it's probably not a monster.\n\n3. **Strategic Considerations:** Given my weak hand and the active opponent, I'm leaning towards a fold. Calling or raising feels like throwing good money after bad unless I get a very cheap look at the river, which I doubt will happen.",
+    "game_state_summary": {
+      "street": "turn",
+      "pot": 50,
+      "community_cards": "['CQ', 'H8', 'DK', 'S8']",
+      "active_players": 2
+    }
+  },
+  {
+    "timestamp": "2025-06-17T08:09:02.312503",
+    "round": 1,
+    "action": "fold",
+    "amount": 0,
+    "expression": "*Sighs, quickly glances at the folded cards then pushes them towards the dealer* \"Nah, I think I'll pass on this one.",
+    "thought": "Okay, preflop with 4-2 offsuit is\u2026 not good. It's a very weak hand with no immediate playability. The pot is small relative to stack sizes, meaning there's not much incentive to gamble on a flop that likely won't improve me. \n\nI'm leaning heavily towards folding, as any raise will almost certainly put me in a difficult spot. Calling is technically an option, but I'd be hoping for a lucky flop and playing a very tight game post-flop, which isn't ideal with this hand.",
+    "game_state_summary": {
+      "street": "preflop",
+      "pot": 30,
+      "community_cards": "[]",
+      "active_players": 4
+    }
+  }
+]

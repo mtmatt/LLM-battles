@@ -269,10 +269,10 @@ def main():
     
     # Create agents list with all available agents
     all_agents = [
-        ('DeepSeek_R1', DeepseekAgent),
-        ('Gemma3_27B', Gemma3Agent),
-        ('Nvidia_Llama3_3', NvidiaLlama3_3Agent)
-        ('Qwen3', Qwen3Agent),
+        ('DeepSeek_R1', DeepseekAgent()),
+        ('Gemma3_27B', Gemma3Agent()),
+        ('Nvidia_Llama3_3', NvidiaLlama3_3Agent()),
+        ('Qwen3', Qwen3Agent()),
     ]
     
     # Shuffle the agents for random order
@@ -281,7 +281,7 @@ def main():
     # Try to create agents in random order
     for name, agent_class in all_agents:
         try:
-            agents.append((name, agent_class()))
+            agents.append((name, agent_class))
             print(f'✓ {name} agent created')
         except Exception as e:
             print(f'⚠ {name} agent failed: {e}')
@@ -326,7 +326,6 @@ def main():
         
     except Exception as e:
         print(f'\n❌ Game error: {e}')
-        print('This might be due to import path issues in the game engine.')
         print('The enhanced agent system is working - the issue is with the game engine imports.')
         
         # Still try to save partial log

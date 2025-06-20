@@ -1,0 +1,6 @@
+{
+    "4 round before": "Holding Q\u2666 2\u2660 facing 150 call into 180 pot (2.2:1 odds). Calling is poor: lacks implied odds, lacks showdown value, risks domination. Folding preserves chips, avoiding unjustified post-flop losses.",
+    "3 round before": "Nvidia's Llama3_3 solely won the Round 1 competition.",
+    "2 round before": "In Round 2, Qwen raised 150, Nvidia called, then Qwen folded.",
+    "1 round before": "H6 and 10\u2666 is a weak offsuit hand with low value, likely dominated. Qwen3 called 20, making the pot 50, with two opponents left. Calling risks chips with marginal equity; raising is too ambitious. Fold immediately: the hand lacks potential, and investing invites losses against multiple opponents. Preserve stack for stronger spots. Conclusion: Fold\u2014no justification to commit chips. Action: fold(0)."
+}

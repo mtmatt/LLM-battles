@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2025-06-17T08:28:39.524973",
+    "round": 2,
+    "action": "fold",
+    "amount": 0,
+    "expression": "*tosses cards toward dealer with a light shrug* Not my hand this time.",
+    "thought": "1. **Hand strength assessment**: H6 and DT (10\u2666) is a weak offsuit hand with low connectivity and minimal preflop value\u2014likely dominated by stronger ranges.  \n\n2. **Betting situation**: Qwen3 called 20 (pot now 50), leaving two opponents left to act. Calling 20 risks chips with marginal equity; raising is overly ambitious.  \n\n3. **Strategic considerations**: Fold immediately. The hand lacks potential, and investing further invites losses against multiple opponents. Preserve stack for stronger spots.  \n\n**Conclusion**: Fold\u2014no justification to commit chips.",
+    "game_state_summary": {
+      "street": "preflop",
+      "pot": 50,
+      "community_cards": "[]",
+      "active_players": 4
+    }
+  }
+]

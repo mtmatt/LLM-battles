@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2025-06-17T09:09:20.135460",
+    "round": 3,
+    "action": "call",
+    "amount": 60,
+    "expression": "Here is a generated expression for the call action:\n\n*glances briefly at opponent's face, then back at own cards with a neutral expression* \"Just matching for now.\"\n\nThis response aims to:\n\n- Keep the body language subtle (a brief, non-confrontational glance)\n- Maintain spoken words neutral, not hinting at hand strength or strategy\n- Fit the action of calling (implying a cautious or observational approach)",
+    "thought": "Here are my internal thoughts on the requested aspects:\n\n### 1. **Hand Strength Assessment**\n\"C4 and S7 is a weak to mediocre hand, offsuit with a relatively low connector potential. Its strength is below average for playing in early positions but might have some speculative value in late positions or against few opponents.\"\n\n### 2. **The Current Betting Situation**\n\"DeepSeek_R1 has raised to 60, more than doubling the pot, indicating a strong hand or aggressive play. The pot is now 90, with two other players yet to act after me, potentially leading to further escalation.\"\n\n### 3. **Strategic Considerations**\n\"Given the hand's weakness and the aggressive raise, folding seems the safest option to minimize loss. Calling is risky without a stronger hand, and raising would be overly aggressive with C4-S7. Observing the next actions might provide insight, but for now, caution is advised.\"",
+    "game_state_summary": {
+      "street": "preflop",
+      "pot": 90,
+      "community_cards": "[]",
+      "active_players": 4
+    }
+  }
+]

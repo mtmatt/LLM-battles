@@ -1,0 +1,72 @@
+[
+  {
+    "timestamp": "2025-06-17T09:12:59.884085",
+    "round": 3,
+    "action": "call",
+    "amount": 60,
+    "expression": "*Slightly rubs chin, then pushes chips forward* \"Just gonna see another card, then.",
+    "thought": "Okay, let's break this down.\n\n1. **Hand Strength:** H8Q is a decent speculative hand \u2013 a suited connector with queen-high. It has potential for straights and flushes, but is currently weak preflop.\n2. **Betting Situation:** DeepSeek_R1 raised to 60, and Nvidia_Llama3_3 called. This suggests DeepSeek_R1 has a reasonably strong hand, or is trying to steal with a wider range, and Nvidia_Llama3_3 is willing to defend.\n3. **Strategic Considerations:** Given the raise and call ahead of me, a simple call seems reasonable to see a flop and evaluate my potential. Raising would be too aggressive with this hand at this stage, and folding is too weak considering the pot odds and potential.",
+    "game_state_summary": {
+      "street": "preflop",
+      "pot": 150,
+      "community_cards": "[]",
+      "active_players": 4
+    }
+  },
+  {
+    "timestamp": "2025-06-17T09:26:18.308765",
+    "round": 3,
+    "action": "call",
+    "amount": 0,
+    "expression": "*Slightly rubs chin, then pushes chips forward* \"Just gonna see another card, why not?",
+    "thought": "Okay, let's analyze.\n\n1. **Hand Strength:** I have a decent, but not great, hand with a Queen-high flush draw. It has potential, but is currently vulnerable.\n2. **Betting Situation:** There was a raise and two callers, indicating some interest in the flop. The pot is 240 with a 60 raise, meaning the effective pot odds aren't *amazing* but are reasonable to see the turn with a draw.\n3. **Strategic Considerations:** I need to consider my implied odds given the stacks. Calling allows me to realize my flush if it hits, but I'm wary of a larger raise on the turn if I don't hit. I'll **call** for now.",
+    "game_state_summary": {
+      "street": "flop",
+      "pot": 240,
+      "community_cards": "['D6', 'S4', 'ST']",
+      "active_players": 4
+    }
+  },
+  {
+    "timestamp": "2025-06-17T09:43:40.961207",
+    "round": 3,
+    "action": "call",
+    "amount": 0,
+    "expression": "*Slightly rubs chin, then pushes chips forward* \"Yeah, alright, I'll see what you've got.",
+    "thought": "Okay, let's analyze.\n\n1. **Hand Strength:** I have a Queen-high flush draw with the 'HQ' and the 'ST' on the board. It's a decent draw, but not a monster, and currently no pair.\n2. **Betting Situation:** It's heads-up now after two folds, and the pot is 240 with effective stacks around 900-1000. DeepSeek_R1 just called the previous bet, indicating some interest in the hand.\n3. **Strategic Considerations:** I need to decide if the pot odds justify a call to see the river. A call is reasonable given the flush draw potential, but a raise could be considered to build the pot if I think DeepSeek_R1 is weak. I'll lean towards a call for now to see the river cheaply.",
+    "game_state_summary": {
+      "street": "turn",
+      "pot": 240,
+      "community_cards": "['D6', 'S4', 'ST', 'D5']",
+      "active_players": 2
+    }
+  },
+  {
+    "timestamp": "2025-06-17T09:54:08.579081",
+    "round": 3,
+    "action": "call",
+    "amount": 0,
+    "expression": "*Slightly rubs chin, then pushes chips forward* \"Yeah, I'll stick around and see the next one.",
+    "thought": "Okay, let's analyze.\n\n1. **Hand Strength:** I have a Queen-high flush draw that completed into a Queen-high flush on the river. This is a strong hand, but vulnerable to a higher flush or two pair.\n2. **Betting Situation:** Only DeepSeek_R1 is still in the hand, and they've just called twice. The pot is 240, and their stack is significant (930), suggesting they likely have *something*.\n3. **Strategic Considerations:** I need to decide if my flush is strong enough to bet into DeepSeek_R1, or if I should check and hope they bluff. Given their stack size and continued participation, I'll lean towards a value bet to extract maximum value. I will **call**.",
+    "game_state_summary": {
+      "street": "river",
+      "pot": 240,
+      "community_cards": "['D6', 'S4', 'ST', 'D5', 'H6']",
+      "active_players": 2
+    }
+  },
+  {
+    "timestamp": "2025-06-17T10:09:58.661068",
+    "round": 3,
+    "action": "call",
+    "amount": 120,
+    "expression": "*Looks at my cards again, then pushes chips forward with a small sigh* \"Alright, I'll call. Let's keep it going.",
+    "thought": "Okay, let's break this down.\n\n1. **Hand Strength:** I have a Queen-high flush draw that completed on the river, giving me a flush. It's a decent hand, but not a monster, and vulnerable to higher flushes.\n2. **Betting Situation:** DeepSeek_R1 raised on the river after calling previous streets, indicating some strength. The pot is 360, and they raised 120, meaning a call would cost 120.\n3. **Strategic Considerations:** Given DeepSeek_R1's raise, I need to consider if my flush is good enough to call. I'm hesitant to raise without knowing more about their range, and folding feels too weak with a made flush. I'll call to see if I can take down the pot, but be prepared to fold if I face further aggression.",
+    "game_state_summary": {
+      "street": "river",
+      "pot": 360,
+      "community_cards": "['D6', 'S4', 'ST', 'D5', 'H6']",
+      "active_players": 2
+    }
+  }
+]
